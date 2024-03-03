@@ -1,5 +1,6 @@
 import 'package:chatapp/Pages/registration_page/registration_page.dart';
 import 'package:chatapp/Pages/singIn_page.dart/SignIn_Page.dart';
+import 'package:chatapp/Pages/singIn_page.dart/widgets/signIn_widgets.dart';
 import 'package:flutter/material.dart';
 
 class OnBoardingScrren extends StatelessWidget {
@@ -49,24 +50,7 @@ class OnBoardingScrren extends StatelessWidget {
             const SizedBox(
               height: 10,
             ),
-            Container(
-              margin: const EdgeInsets.only(
-                  top: 30, left: 40, right: 40, bottom: 10),
-              child: const Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  CircleAvatar(
-                    backgroundColor: Colors.amber,
-                  ),
-                  CircleAvatar(
-                    backgroundColor: Colors.amber,
-                  ),
-                  CircleAvatar(
-                    backgroundColor: Colors.amber,
-                  ),
-                ],
-              ),
-            ),
+            thirdPartyLogin(),
             const SizedBox(
               height: 10,
             ),

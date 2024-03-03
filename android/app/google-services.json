@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1060089188265",
+    "project_id": "chatappinternship-30087",
+    "storage_bucket": "chatappinternship-30087.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060089188265:android:f6fed43f4b38e39dcdfeb8",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCijvmKRfkmV-OKyFwtMZfhAI5T-Ru8Z7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
